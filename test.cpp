@@ -6,7 +6,7 @@
 using namespace std;
 int main()
 {
-	int x, i, k = 4;
+	int x, i, k = 11;
 	double y;
 	cout << "Input x\n";
 	cin >> x;	
@@ -14,7 +14,7 @@ int main()
 	for (int i = 1; i < k; i++)
 	{
 		y = i + sin(i*x);
-		y = pow(x, 8) + y;
+		y = pow(x, 20) + y;
 		cout << y << endl;
 	}
 }
